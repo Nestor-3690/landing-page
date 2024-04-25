@@ -11,3 +11,16 @@ body {
 button {
     font-family: Roboto, sans-serif;
 }
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.heromaintext, .headerlinks {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .signup {
+    background-color: #3882F6;
+}
