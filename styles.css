@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Base of the page */
+
 body {
     height: 100vh;
     margin: 0;
@@ -10,17 +12,72 @@ body {
 
 button {
     font-family: Roboto, sans-serif;
+    width: 100px;
 }
+
+ul {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 500px;
+}
+
+/* Shared properties */
 
 .hero, .footer {
     background-color: #1F2937;
 }
 
-.heromaintext, .headerlinks {
+.heromaintext, a {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 button, .signup {
     background-color: #3882F6;
+}
+
+/* Hero properties */
+
+.heroheader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.mainhero {
+    display: flex;
+}
+
+.herotext {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.herotextheader {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.heroimage {
+    width: 300px;
+    flex: 1;
 }
