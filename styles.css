@@ -17,7 +17,7 @@ button {
 
 ul {
     display: flex;
-    gap: 5px;
+    gap: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,7 +29,8 @@ a {
 }
 
 img {
-    max-width: 500px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /* Shared properties */
@@ -48,6 +49,10 @@ button, .signup {
 }
 
 /* Hero properties */
+
+.hero {
+    padding: 20px 200px 200px;
+}
 
 .heroheader {
     display: flex;
@@ -78,6 +83,5 @@ button, .signup {
 }
 
 .heroimage {
-    width: 300px;
     flex: 1;
 }
