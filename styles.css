@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/flama-light-italic');
 
 /* Base of the page */
 
@@ -117,10 +118,41 @@ button, .signup {
 .icon1, .icon2, .icon3, .icon4 {
     max-width: 150px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .iconimages {
     border: 5px solid #3882F6;
     border-radius: 25px;
     padding: 20px;
+}
+
+.icontext {
+    text-align: center;
+}
+
+/* Quote properties */
+
+.quote {
+    align-items: center;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 100px 250px 100px;
+}
+
+.quotetext {
+    color: #1F2937;
+    font-family: 'Flama Light Italic', sans-serif;
+    font-size: 36px;
+}
+
+.quoter {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 25px;
 }
