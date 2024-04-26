@@ -156,3 +156,25 @@ button, .signup {
     font-weight: 600;
     font-size: 25px;
 }
+
+/* Signup properties */
+
+.signup {
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 150px 75px;
+    padding: 50px 100px 50px;
+}
+
+.sutextheader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup button {
+    border: 2px solid white;
+    height: 42px;
+    width: 104px;
+}
