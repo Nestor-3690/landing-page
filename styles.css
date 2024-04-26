@@ -13,6 +13,11 @@ body {
 button {
     font-family: Roboto, sans-serif;
     width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
 }
 
 ul {
@@ -57,7 +62,7 @@ button, .signup {
 .heroheader {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .headerlogo {
@@ -73,7 +78,7 @@ button, .signup {
     display: flex;
     flex: 1;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
 }
 
 .herotextheader {
