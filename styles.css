@@ -56,7 +56,7 @@ button, .signup {
 /* Hero properties */
 
 .hero {
-    padding: 20px 200px 200px;
+    padding: 20px 150px 125px;
 }
 
 .heroheader {
@@ -89,4 +89,38 @@ button, .signup {
 
 .heroimage {
     flex: 1;
+}
+
+/* Infos properties */
+
+.infos {
+    padding: 50px 250px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    align-self: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    max-width: 150px;
+    box-sizing: border-box;
+}
+
+.iconimages {
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    padding: 20px;
 }
