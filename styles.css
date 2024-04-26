@@ -178,3 +178,24 @@ button, .signup {
     height: 42px;
     width: 104px;
 }
+
+/* Footer properties */
+
+.footer {
+    align-items: center;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 150px 20px;
+}
+
+.imagescredit {
+    display: flex;
+    gap: 5px;
+}
+
+.imagescredit a {
+    font-size: 10px;
+}
